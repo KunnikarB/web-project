@@ -1,0 +1,25 @@
+/* Section Footer */
+#main-footer {
+  padding: 2em;
+  background: $bg-color;
+  color: $primary-color;
+  text-align: center;
+}
+
+#main-footer a {
+  color: $primary-color;
+  text-decoration: none;
+  padding-left: 0.5em;
+}
+
+#main-footer a:nth-child(5) {
+  color: $background-color;
+
+  &:hover {
+    color: $background-color;
+  }
+}
+
+#main-footer a:hover {
+  color: $background-color;
+}
