@@ -1,0 +1,59 @@
+/* Section Why Choose Us */
+#section-a {
+  min-height: 450px;
+  color: $primary-color;
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+#section-a .container {
+  display: flex;
+  flex-wrap: wrap;  
+  justify-content: center;
+  align-content: center;
+  margin: 3em;
+}
+
+#section-a .container__img {
+  width: 350px;
+  height: 220px;
+  margin: 2em;
+}
+
+/* Section How It Works */
+.icon {
+  max-width: none;
+  height: 340px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  background-color: #232323;
+}
+
+.icon .content-wrap .content-text {
+  display: inline-block;
+  background-color: $bg-color;
+  color: #E8E8E8;
+
+}
+
+/* Section Book Now */
+#section-b .content-wrap, #section-c .content-wrap {
+  display: flexbox;
+  background-color: $bg-color;
+  color: $primary-color;
+  padding: 2em;
+  text-align: center;
+}
+
+/* Section Testimonial */
+#section-d .box {
+  padding: 2em;
+  color: $primary-color;
+
+}
+
+#section-d i {
+  font-size: 2em;
+  color: $background-color;
+ }
