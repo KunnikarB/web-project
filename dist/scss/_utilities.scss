@@ -14,8 +14,8 @@ html {
 }
 
 body {
-  background-color: #5474FD;
-  color: #232323;
+  background-color: $background-color;
+  color: $primary-color;
   font-size: 1em;
   line-height: 1.5;
   text-align: center;
